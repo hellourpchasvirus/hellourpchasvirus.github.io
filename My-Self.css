@@ -1,63 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: red;
-    color: #333;
-    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, green, red);
+    color: blueviolet;
     padding: 20px;
-}
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-h1 {
-    font-size: 2.5em;
-    margin: 0;
-}
-h2 {
-    color: blue;
-    font-size: 2em;
-    margin-top: 20px;
-}
-p {
     line-height: 1.6;
-    font-size: 1.1em;
-    margin: 10px 0;
 }
-.job-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: #2c3e50;
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-.info {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-.footer {
+
+h1 {
+    color: indianred;
     text-align: center;
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: #777;
 }
-a {
-    color: #4CAF50;
-    text-decoration: none;
+
+h2 {
+    color: dodgerblue;
+    border-bottom: 2px solid darkgoldenrod;
+    padding-bottom: 5px;
 }
-a:hover {
-    text-decoration: underline;
+
+.gif-space {
+    text-align: center;
+    margin: 20px 0;
 }
-ul {
-    list-style-type: square;
-    margin: 10px 0;
-    padding-left: 20px;
+
+.gif-space img {
+    max-width: 100%;
+    border-radius: 10px;
 }
-li {
-    margin: 5px 0;
+
+.section {
+    margin-bottom: 25px;
 }
